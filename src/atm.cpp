@@ -1,10 +1,18 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <cstring>
 #include <cmath>
 using namespace std;				// Set the namespace to std
 
 #include "ATM.h"
+
+#if defined _WIN64 || _WIN32
+#define CLEAR "CLS"
+#else
+#define strcpy_s(a, b, c) strcpy(a, c)
+#define CLEAR "clear"
+#endif
 
 int main(int argc, char* argv[])
 {
