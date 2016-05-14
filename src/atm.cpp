@@ -93,7 +93,7 @@ bool Login_Menu()
 	{
 		if (CCN_OwnerExists(CCN))		// If the owner exists too
 		{
-			system("CLS");
+			system(CLEAR);
 			// Print the Welcome Message
 			cout << welcome_message;
 
@@ -109,7 +109,7 @@ bool Login_Menu()
 			}
 			else
 			{
-				cout << "User doesn't exist!." << endl;
+				cout << "Invalid PIN!" << endl;
 				return false;
 			}
 		}
@@ -251,7 +251,7 @@ void Show_Stats(long accnum)
 
 	if (to_string(accnum) == cur_accnum)
 	{
-		system("CLS");
+		system(CLEAR);
 		// Print the Welcome Message
 		cout << welcome_message;
 
@@ -365,7 +365,7 @@ void ATMMenu(long accnum)
 
 void cash_withdraw(long accnum)
 {
-	system("CLS");
+	system(CLEAR);
 	// Print the Welcome Message
 	cout << welcome_message;
 	cout << endl << "Cash Withdraw!" << endl;
@@ -406,7 +406,7 @@ void cash_withdraw(long accnum)
 
 void pay_utilitybill(long accnum)
 {
-	system("CLS");
+	system(CLEAR);
 	// Print the Welcome Message
 	cout << welcome_message;
 	cout << endl << "Pay Utililty Bills!" << endl;
@@ -447,7 +447,7 @@ void pay_utilitybill(long accnum)
 
 void credit_transfer(long accnum)
 {
-	system("CLS");
+	system(CLEAR);
 	// Print the Welcome Message
 	cout << welcome_message;
 	cout << endl << "Credit Transfer Portal" << endl;
@@ -513,7 +513,7 @@ void credit_transfer(long accnum)
 
 void add_funds(long accnum)
 {
-	system("CLS");
+	system(CLEAR);
 	// Print the Welcome Message
 	cout << welcome_message;
 	cout << endl << "Add Funds Utility" << endl;
@@ -554,7 +554,7 @@ void add_funds(long accnum)
 
 void acc_update(long accnum)
 {
-	system("CLS");
+	system(CLEAR);
 	// Print the Welcome Message
 	cout << welcome_message;
 	cout << endl << "Account Update Portal" << endl;
