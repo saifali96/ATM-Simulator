@@ -1,4 +1,4 @@
-CC=gcc
+CC=g++
 
 INC_DIR = include
 SRC_DIR = src
