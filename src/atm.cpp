@@ -224,7 +224,7 @@ string GetAccNum(long long CCN)
 		}
 	}
 	
-	return false;
+	return "Error!";
 }
 
 
