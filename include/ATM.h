@@ -34,7 +34,7 @@ void add_funds(long accnum);
 
 customer customers[5];
 
-char char* welcome_message = "********************************\
+const char* welcome_message = "********************************\
 						*-->Welcome to Bahria Bank!<---*\
 						********************************\n";
 
